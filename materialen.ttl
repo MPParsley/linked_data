@@ -1,0 +1,1636 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-thes: <http://purl.org/iso25964/skos-thes#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://id.erfgoed.net/thesauri/materialen/101> a skos:Concept ;
+    dcterms:identifier 101 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/90> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "schiefer"@nl-BE ;
+    skos:scopeNote "Schiefer is een leisteenachtig en gefolieerd sedimentair gesteente waarin nog geen metamorfisme is opgetreden. Het heeft een ruwer splijtvlak dan leisteen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/106> a skos:Concept ;
+    dcterms:identifier 106 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/103> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "dioriet"@nl-BE ;
+    skos:scopeNote "Dioriet is een hard, grofkorrelig, zwart-wit gespikkeld, granietachtig stollingsgesteente samengesteld uit plagioklaas vermengd met hoornblende, biotiet en augiet en soms kleine hoeveelheden orthoklaas of kwarts."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/107> a skos:Concept ;
+    dcterms:identifier 107 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/103> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "graniet"@nl-BE ;
+    skos:scopeNote "Graniet is een grofkorrelig, hard, duurzaam en goed te polijsten stollingsgesteente opgebouwd uit veldspaat (rozegeel en wit), kwarts (glazig grijs) en mica (zwart)."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/108> a skos:Concept ;
+    dcterms:identifier 108 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DE CEUKELAIRE M., DOPERE F., DREESEN R., DUSAR M. &amp; GROESSENS E. 2014: <em>Belgisch marmer</em>, Gent."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/100> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "Belgisch marmer"@nl-BE ;
+    skos:scopeNote "Belgisch marmer is, in tegenstelling tot klassiek marmer (zoals marmer van Carrara), een sedimentair gesteente zonder duidelijke kristaltextuur dat van biogene oorsprong is, zoals de aanwezige fossielen aantonen. Het is een kalksteen met een dichte structuur en is polijstbaar."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/109> a skos:Concept ;
+    dcterms:identifier 109 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "arduin"@nl-BE,
+        "crinoÏde kalksteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/100> ;
+    skos:definition "Blauwe hardsteen is een kalksteen met een min of meer uitgesproken blauwgrijze kleur. De steen wordt gekenmerkt door de aanwezigheid van fossiele skeletdelen van crinoïden (zeelelies), i.e. ongewervelde zeedieren met een kalkskelet."@la ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "blauwe hardsteen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/110> a skos:Concept ;
+    dcterms:identifier 110 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/100> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "Doornikse kalksteen"@nl-BE ;
+    skos:scopeNote "Doornikse kalksteen is een fijnkorrelige, donkergrijze, onzuivere (klei- en silthoudende) kalksteen met weinig tot talrijke kleine en bleke fossielfragmenten die vaak zijn uitgeëtst op oude steenoppervlakken."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/111> a skos:Concept ;
+    dcterms:identifier 111 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/100> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "krijt"@nl-BE ;
+    skos:scopeNote "Krijt is een kalksteen die is opgebouwd uit het CaCO3 houdend exoskelet van eencellige mariene algen (coccolieten)."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/112> a skos:Concept ;
+    dcterms:identifier 112 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/100> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "travertijn"@nl-BE ;
+    skos:scopeNote "Travertijn is een speciale vorm van biochemisch gevormde poreuze kalksteen en wordt gevormd door CaCO3-neerslag in de nabijheid van warmwaterbronnen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/113> a skos:Concept ;
+    dcterms:identifier 113 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/104> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "porfier"@nl-BE ;
+    skos:scopeNote "Porfier is een stollingsgesteente met een typische textuur van relatief grote kristallen in een fijnkorrelige stollingsmatrix. De kleur is meetstal groengrijs tot blauwachtig, soms ook roze-paars, en gevlekt door de aanwezigheid van blekere kristallen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/114> a skos:Concept ;
+    dcterms:identifier 114 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/105> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "basalt"@nl-BE ;
+    skos:scopeNote "Basalt is een compact, hard, donkerbruin tot zwart, grof poreus vulkanisch gesteente dat ontstaat door stolling van lava aan het aardoppervlak."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/115> a skos:Concept ;
+    dcterms:identifier 115 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/105> ;
+    skos:definition "Tufsteen is een poreus, fijnkorrelig, vulkanisch gesteente dat is samengesteld uit aan elkaar gekitte fijnere soorten vulkanische as en detritus."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "tufsteen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/116> a skos:Concept ;
+    dcterms:identifier 116 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "ijzerhoudende zandsteen"@nl ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/102> ;
+    skos:definition "IJzerzandsteen is een fijnkorrelige zandsteen met ijzeroxiden en/of ijzerhydroxiden als bindmiddel. De karakteristieke roodbruine vlekken worden veroorzaakt door het ijzergehalte van het gesteente."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "ijzerzandsteen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/117> a skos:Concept ;
+    dcterms:identifier 117 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "kalkhoudende zandsteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/102> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "kalkzandsteen"@nl-BE ;
+    skos:scopeNote "Kalkzandsteen is homogene zandsteen die bestaat een matrix van kalk (calciumcarbonaat) die de zanddeeltjes bindt. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/118> a skos:Concept ;
+    dcterms:identifier 118 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/102> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "kwartszandsteen"@nl-BE ;
+    skos:scopeNote "Kwartszandsteen is een zeer zuivere kwartsrijke zandsteen (meer dan 95% zuiver kwarts) met kwarts als korrel en als bindmiddel (kiezel)."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/119> a skos:Concept ;
+    dcterms:identifier 119 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Belgische lichtgrijze vuursteen"@nl-BE,
+        "Haspengouw-vuursteen"@nl-BE,
+        "Haspengouwse vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Haspengouw"@nl-BE ;
+    skos:scopeNote "Vuursteen van Haspengouw wordt overal in het Waalse deel van Haspengouw aangetroffen. De kleur is licht- tot donkergrijs. De textuur is glasachtig, en de doorschijnendheid is behoorlijk hoog. Talrijke insluitingen omvatten witte vlekken en netvormige patronen van donkere lijnen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/120> a skos:Concept ;
+    dcterms:identifier 120 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Banholt-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Banholt"@nl-BE ;
+    skos:scopeNote "Vuursteen van Banholt is afkomstig van de kalksteen van Lanaye. Het is inhomogeen van kleur en kan ook binnen individuele knollen variëren van zeer donker tot zeer lichtgrijs, soms met een blauwe zweem. De vuursteen bevat talrijke insluitsels, en het samen voorkomen van donkere en lichte vlekken en spikkels is kenmerkend. De textuur is fijn tot matig grofkorrelig, en het materiaal is vrijwel opaak. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/121> a skos:Concept ;
+    dcterms:identifier 121 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Obourg-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Obourg"@nl-BE ;
+    skos:scopeNote "Vuursteen van Obourg is homogeen en zeer donkergrijs tot zwart van kleur. De textuur is zeer fijnkorrelig (glasachtig), de breukvlakken zijn glanzend, en het materiaal is matig doorschijnend. Er zijn weinig tot geen insluitsels."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/122> a skos:Concept ;
+    dcterms:identifier 122 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Rullen-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:definition "Vuursteen van Rullen is afkomstig van de kalksteen van Lanaye. Het is inhomogeen van kleur en kan ook binnen individuele knollen variëren van zeer donker tot zeer lichtgrijs, soms met een blauwe zweem. De vuursteen bevat talrijke insluitsels, en het samen voorkomen van donkere en lichte vlekken en spikkels is kenmerkend. De textuur is fijn tot matig grofkorrelig, en het materiaal is vrijwel opaak. "@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Rullen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/123> a skos:Concept ;
+    dcterms:identifier 123 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Ryckholt-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Ryckholt"@nl-BE ;
+    skos:scopeNote "Vuursteen van Ryckholt is afkomstig van de kalksteen van Lanaye. Het is inhomogeen van kleur en kan ook binnen individuele knollen variëren van zeer donker tot zeer lichtgrijs, soms met een blauwe zweem. De vuursteen bevat talrijke insluitsels, en het samen voorkomen van donkere en lichte vlekken en spikkels is kenmerkend. De textuur is fijn tot matig grofkorrelig, en het materiaal is vrijwel opaak. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/124> a skos:Concept ;
+    dcterms:identifier 124 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Spiennes-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Spiennes"@nl-BE ;
+    skos:scopeNote "Vuursteen van Spiennes is inhomogeen van kleur en kan ook binnen individuele knollen variëren van zeer donker tot zeer lichtgrijs, soms met een blauwe zweem. De vuursteen bevat talrijke insluitsels, en het samen voorkomen van donkere en lichte vlekken en spikkels is kenmerkend. De textuur is fijn tot matig grofkorrelig, en het materiaal is vrijwel opaak. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/125> a skos:Concept ;
+    dcterms:identifier 125 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Valkenburg-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Valkenburg"@nl-BE ;
+    skos:scopeNote "Vuursteen van Valkenburg is afkomstig van de kalksteen van Emael. Het is inhomogeen van kleur en kan variëren van donker- tot lichtgrijs, soms met een bruine zweem. De vuursteen bevat vooral witte insluitsels. De textuur is meestal grofkorrelig, maar kan direct onder de cortex fijner zijn. Het materiaal is opaak, en zeer gevoelig aan verwering."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/126> a skos:Concept ;
+    dcterms:identifier 126 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Zevenwegen-vuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/46> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vuursteen van Zevenwegen"@nl-BE ;
+    skos:scopeNote "Vuursteen van Zevenwegen lijkt sterk op vuursteen van Obourg, maar komt voor in de Voerstreek en Nederlands Zuid-Limburg. De knollen in Obourg zijn echter aanzienlijk groter, en vertonen soms een geelbruine infiltratiezone onder de cortex."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/130> a skos:Concept ;
+    dcterms:identifier 130 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "balein"@nl-BE ;
+    skos:scopeNote "Balein is een hoornachtige stof afkomstig uit de baard van een walvis."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/131> a skos:Concept ;
+    dcterms:identifier 131 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "coproliet"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/132> a skos:Concept ;
+    dcterms:identifier 132 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "eierschaal"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/134> a skos:Concept ;
+    dcterms:identifier 134 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "tand"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/135> a skos:Concept ;
+    dcterms:identifier 135 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "ivoor"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/136> a skos:Concept ;
+    dcterms:identifier 136 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "amber"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "barnsteen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/137> a skos:Concept ;
+    dcterms:identifier 137 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "bruinkool"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/138> a skos:Concept ;
+    dcterms:identifier 138 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "git"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/139> a skos:Concept ;
+    dcterms:identifier 139 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "steenkool"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/14> a skos:Concept ;
+    dcterms:identifier 14 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/13> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "brons"@nl-BE ;
+    skos:scopeNote "Brons is een legering van koper en tin."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/141> a skos:Concept ;
+    dcterms:identifier 141 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Heritage Data, <a href=\"https://www.heritagedata.org/blog \">https://www.heritagedata.org/blog </a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/127> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "papier"@nl-BE ;
+    skos:scopeNote "Papier verwijst naar dunne buigzame vellen die vervaardigd zijn van de pulp van hout of ander vezelig materiaal."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/142> a skos:Concept ;
+    dcterms:identifier 142 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "specie"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/140> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "mortel"@nl-BE ;
+    skos:scopeNote "Mortel is een uitgehard mengsel van cement, zand en water."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/143> a skos:Concept ;
+    dcterms:identifier 143 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "katoen"@nl-BE ;
+    skos:scopeNote "Katoen is textiel gemaakt van katoenvezels."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/144> a skos:Concept ;
+    dcterms:identifier 144 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "kokos"@nl-BE ;
+    skos:scopeNote "Te gebruiken voor materiaal vervaardigd uit kokosvezels afkomstig van de bolster van een kokosnoot (Cocos Nucifera)."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/145> a skos:Concept ;
+    dcterms:identifier 145 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "linnen"@nl-BE ;
+    skos:scopeNote "Linnen is geweven textiel van de gesponnen vezels van de vlasplant. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/146> a skos:Concept ;
+    dcterms:identifier 146 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "sisal"@nl-BE ;
+    skos:scopeNote "Te gebruiken voor materiaal vervaardigd uit de vezels van bladeren van plantensoorten uit het geslacht Agave."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/147> a skos:Concept ;
+    dcterms:identifier 147 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "wol"@nl-BE ;
+    skos:scopeNote "Wol is stof gemaakt van dierenhaar. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/148> a skos:Concept ;
+    dcterms:identifier 148 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "zijde"@nl-BE ;
+    skos:scopeNote "Zijde is stof gemaakt van zijdevezels. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/15> a skos:Concept ;
+    dcterms:identifier 15 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/13> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "messing"@nl-BE ;
+    skos:scopeNote "Messing is een legering van koper en zink, meestal met koper als het voornaamste element en met zink als maximaal 40% van het gewicht."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/150> a skos:Concept ;
+    dcterms:identifier 150 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Heritage Data, <a href=\"https://www.heritagedata.org/blog\">https://www.heritagedata.org/blog</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/149> ;
+    skos:definition "Te gebruiken voor materiaal vervaardigd uit stengels en/of bladeren van riet, verschillende soorten grassen (Phragmites sp.) die voornamelijk in moerasgebieden groeien."@la ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "riet"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/151> a skos:Concept ;
+    dcterms:identifier 151 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/127> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "koord"@nl-BE ;
+    skos:scopeNote "Koord is een lange, dunne, buigzame, ietwat cilindervormige constructie van vezelachtig materiaal, meestal gemaakt van meerdere strengen die zijn samengevlochten. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/152> a skos:Concept ;
+    dcterms:identifier 152 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/20> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "plastic"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/153> a skos:Concept ;
+    dcterms:identifier 153 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/20> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "bakeliet"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/154> a skos:Collection ;
+    dcterms:identifier 154 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/155>,
+        <https://id.erfgoed.net/thesauri/materialen/156> ;
+    skos:prefLabel "nikkel- en nikkellegering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/17> a skos:Concept ;
+    dcterms:identifier 17 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/57> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "staal"@nl-BE ;
+    skos:scopeNote "Staal is een legering van ijzer en koolstof."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/2> a skos:Concept ;
+    dcterms:identifier 2 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "VIOE" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/1> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "pijpaarde"@nl-BE ;
+    skos:scopeNote "Pijpaarde is een bepaalde soort fijne, witbakkende klei die gebruikt werd voor het maken van pijpen, beeldjes, fijn aardewerk enz..."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/23> a skos:Concept ;
+    dcterms:identifier 23 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/133> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "bont"@nl-BE ;
+    skos:scopeNote "Bont is een gelooide dierlijke huid, dicht bezet met haren. Het wordt voornamelijk gebruikt voor het maken van kleding."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/25> a skos:Concept ;
+    dcterms:identifier 25 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "dierlijk been"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/24> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "dierlijk bot"@nl-BE ;
+    skos:scopeNote "Botmateriaal of been is een combinatie van organisch en anorganisch materiaal die hoofdzakelijk bestaat uit collageen en calciumfosfaat; het vormt het geraamte van de meeste gewervelde dieren."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/26> a skos:Concept ;
+    dcterms:identifier 26 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "menselijk been"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/24> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "menselijk bot"@nl-BE ;
+    skos:scopeNote "Botmateriaal of been is een combinatie van organisch en/of anorganisch materiaal die hoofdzakelijk bestaat uit collageen en calciumfosfaat; het vormt het geraamte van de meeste gewervelden, waaronder de mens."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/27> a skos:Concept ;
+    dcterms:identifier 27 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "gewei"@nl-BE ;
+    skos:scopeNote "Gewei wordt gevormd door enkele uitstulpingen van been op de voorhoofdsbeenderen van gehoefde dieren die behoren tot de hertenfamilie. Het wordt jaarlijks afgeworpen. Gewei wordt door de mens gebruikt als grondstof voor het maken van artefacten."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/28> a skos:Concept ;
+    dcterms:identifier 28 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Te onderscheiden van 'gewei', dat bestaat uit aangepast been."@nl-BE ;
+    skos:prefLabel "hoorn"@nl-BE ;
+    skos:scopeNote "Hoorn is een uitgroei van aangepaste huid of zeer compact haar, vaak in paren die uitsteken vanaf de voorhoofdsbotten aan beide zijden van de schedel en bestaat uit een permanente opperhuid van keratine. De benen kern van een hoorn wordt hoornpit genoemd."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/30> a skos:Concept ;
+    dcterms:identifier 30 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/29> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "leer"@nl-BE ;
+    skos:scopeNote "Leer is de huid of het vel van een dier, die is gelooid om tegen bederf te beschermen en in droge toestand relatief zacht en soepel te maken."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/31> a skos:Concept ;
+    dcterms:identifier 31 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "schelp"@nl-BE ;
+    skos:scopeNote "De het uitwendig skelet van een weekdier samengesteld uit kalk of andere mineralen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/33> a skos:Concept ;
+    dcterms:identifier 33 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "VIOE" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "barnsteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "amber"@nl-BE ;
+    skos:scopeNote "Amber is een fossiele hars afkomstig uit naaldbomen en wordt gebruikt voor het maken van kralen, hangers, knopen en dergelijke meer."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/35> a skos:Concept ;
+    dcterms:identifier 35 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "hout"@nl-BE ;
+    skos:scopeNote "Hout is het voornaamste bestanddeel van bomen en struiken. Hout is een belangrijke grondstof en wordt voor allerlei toepassingen gebruikt, zoals voor bouwconstructies, als brandstof, voor het maken van papier, enz…"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/36> a skos:Concept ;
+    dcterms:identifier 36 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "houtskool"@nl-BE ;
+    skos:scopeNote "Houtskool is een onzuivere vorm van grafietkoolstof die ontstaat als reststof bij de gedeeltelijke verbranding van koolstofhoudend materiaal, of bij verhitting van dit materiaal waarbij zuurstof in beperkte hoeveelheid aanwezig is."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/39> a skos:Concept ;
+    dcterms:identifier 39 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/38> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "gewapend beton"@nl-BE ;
+    skos:scopeNote "Gewapend beton is beton dat versterkt is door middel van een ingesloten wapening die meestal uit stalen staven bestaat. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/41> a skos:Concept ;
+    dcterms:identifier 41 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/86> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "natuursteen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/42> a skos:Concept ;
+    dcterms:identifier 42 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/86> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "lithisch materiaal"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/44> a skos:Concept ;
+    dcterms:identifier 44 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/43> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "kwartsiet van Tienen"@nl-BE ;
+    skos:scopeNote "Kwartsiet van Tienen is een kwartsitisch grondwatersilcreet ontstaan door de verkiezeling van zandafzettingen door siliciumrijk grondwater. Het is afkomstig van de regio net ten zuiden en westen van Tienen, en werd in de steentijd gebruikt om werktuigen te maken. Het is een zeer harde en grofkorrelige grondstof en bestaat vooral uit grote, ineengrijpende kwartskorrels. De kleur varieert van lichtgrijs tot zwart."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/45> a skos:Concept ;
+    dcterms:identifier 45 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "Wommersomkwartsiet"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/43> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "kwartsiet van Wommersom"@nl-BE ;
+    skos:scopeNote "Kwartsiet van Wommersom is een kwartsitisch grondwatersilcreet ontstaan door de verkiezeling van zandafzettingen door siliciumrijk grondwater. Het komt alleen voor in Wommersom, nabij Tienen. Het vertoont enige gelijkenis met vuursteen en werd in de steentijd gebruikt om werktuigen te maken. Het onderscheid kan visueel gemaakt worden door de glinstering van kleine kwartsdeeltjes. Dit zijn grotere kwartskorrels ingebed in een fijnkorrelig silicamatrix. De kleur is lichtgrijs tot grijsbruin, met soms gelige vlekjes. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/49> a skos:Concept ;
+    dcterms:identifier 49 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Van Dale, <a href=\"https://www.vandale.nl/\">https://www.vandale.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/140> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "cement"@nl-BE ;
+    skos:scopeNote "Cement is een snel verhardend bindmiddel."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/5> a skos:Concept ;
+    dcterms:identifier 5 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "VIOE" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/1> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "porselein"@nl-BE ;
+    skos:scopeNote "Porselein verwijst naar een bepaald soort hardgebakken aardewerk van vuurbestendige witte klei, kaolien, waaraan veldspaat en kwarts worden toegevoegd."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/50> a skos:Concept ;
+    dcterms:identifier 50 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/140> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "pleister"@nl-BE ;
+    skos:scopeNote "Pleister is een zacht, plastisch materiaal dat kan worden uitgerold of uitgestreken op een muur, plafond of ander oppervlak waarop het vervolgens verhardt. In de context van archeologie, architectuur en kunst verwijst het meestal specifiek naar een mengsel van water, kalk en zand, vaak in combinatie met andere materialen zoals dierenhaar, waardoor het materiaal meer kracht, textuur en - als het oppervlak daarna wordt geschilderd - poreusheid krijgt."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/59> a skos:Concept ;
+    dcterms:identifier 59 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/54> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "biljoenzilver"@nl-BE ;
+    skos:scopeNote "Biljoenzilver is een zilverlegering met een gelijke of grotere hoeveelheid van een ander metaal, vaak koper."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/6> a skos:Concept ;
+    dcterms:identifier 6 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/1> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "steengoed"@nl-BE ;
+    skos:scopeNote "Steengoed is een soort aardewerk dat gemaakt is van klei en smeltbaar gesteente. Het materiaal wordt zolang gebakken tot er gedeeltelijke verglazing optreedt, waardoor het materiaal waterdicht wordt."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/60> a skos:Concept ;
+    dcterms:identifier 60 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/58> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "biljoengoud"@nl-BE ;
+    skos:scopeNote "Biljoengoud is een goudlegering met een gelijke of grotere hoeveelheid van een ander metaal, vaak koper. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/61> a skos:Concept ;
+    dcterms:identifier 61 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/56> ;
+    skos:definition "Een lood-tinlegering is een legering van lood en tin."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "lood-tinlegering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/62> a skos:Collection ;
+    dcterms:identifier 62 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/52>,
+        <https://id.erfgoed.net/thesauri/materialen/53> ;
+    skos:prefLabel "zink en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/63> a skos:Collection ;
+    dcterms:identifier 63 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/19>,
+        <https://id.erfgoed.net/thesauri/materialen/54> ;
+    skos:prefLabel "zilver en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/64> a skos:Collection ;
+    dcterms:identifier 64 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/10>,
+        <https://id.erfgoed.net/thesauri/materialen/58>,
+        <https://id.erfgoed.net/thesauri/materialen/9> ;
+    skos:prefLabel "goud en -legering"@la .
+
+<https://id.erfgoed.net/thesauri/materialen/65> a skos:Collection ;
+    dcterms:identifier 65 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/11>,
+        <https://id.erfgoed.net/thesauri/materialen/57> ;
+    skos:prefLabel "ijzer en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/66> a skos:Collection ;
+    dcterms:identifier 66 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/12>,
+        <https://id.erfgoed.net/thesauri/materialen/13> ;
+    skos:prefLabel "koper en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/67> a skos:Collection ;
+    dcterms:identifier 67 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/16>,
+        <https://id.erfgoed.net/thesauri/materialen/56> ;
+    skos:prefLabel "lood en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/68> a skos:Collection ;
+    dcterms:identifier 68 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/18>,
+        <https://id.erfgoed.net/thesauri/materialen/55> ;
+    skos:prefLabel "tin en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/69> a skos:Collection ;
+    dcterms:identifier 69 ;
+    skos-thes:superOrdinate <https://id.erfgoed.net/thesauri/materialen/8> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:member <https://id.erfgoed.net/thesauri/materialen/48>,
+        <https://id.erfgoed.net/thesauri/materialen/70> ;
+    skos:prefLabel "aluminium en -legering"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/7> a skos:Concept ;
+    dcterms:identifier 7 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "glas"@nl-BE ;
+    skos:scopeNote "Glas is een amorfe, anorganische substantie die wordt gemaakt door silica (siliciumdioxide) te fuseren met een basisoxide, meestal transparant maar vaak ook doorzichtig of ondoorschijnend."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/75> a skos:Concept ;
+    dcterms:identifier 75 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Wikipedia, <a href=\"https://nl.wikipedia.org\">https://nl.wikipedia.org</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/74> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "vermiljoen"@nl-BE ;
+    skos:scopeNote "Vermiljoen is een synthetisch rood-oranjeachtig pigment bestaande uit kwiksulfide, chemisch hetzelfde als het natuurlijke mineraal cinnaber. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/76> a skos:Concept ;
+    dcterms:identifier 76 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Wikipedia, <a href=\"https://nl.wikipedia.org\">https://nl.wikipedia.org</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation """Art &amp; Architecture Thesaurus, <a href="http://www.getty.edu/research/tools/vocabularies/aat">http://www.getty.edu/research/tools/vocabularies/aat</a>
+"""^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/74> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "gele oker"@nl-BE ;
+    skos:scopeNote "Gele oker is een geel pigment afkomstig van gehydrateerd ijzeroxide. Het behoort tot de aardkleuren. De kleur kan omschreven worden als dof goud, of bruingeel."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/77> a skos:Concept ;
+    dcterms:identifier 77 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Wikipedia, <a href=\"https://nl.wikipedia.org\">https://nl.wikipedia.org</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation """Art &amp; Architecture Thesaurus, <a href="http://www.getty.edu/research/tools/vocabularies/aat">http://www.getty.edu/research/tools/vocabularies/aat</a>
+"""^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/74> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "rode oker"@nl-BE ;
+    skos:scopeNote "Rode oker is een rood pigment afkomstig van ijzeroxide. Het kan worden verkregen uit klei of door het calcineren van gele oker. Het behoort tot de aardkleuren. De kleur lijkt op die van roest."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/78> a skos:Concept ;
+    dcterms:identifier 78 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "terre verte"@fr ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/74> ;
+    skos:definition "Groene aarde is een groen pigment. De samenstelling kan variëren, maar het wordt steeds verkregen uit groen gekleurde kiezelhoudende ijzerrijke kleisoorten. Het behoort tot de aardkleuren. De kleur kan variëren van geelgroen tot zeegroen tot groenig grijs."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "groene aarde"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/79> a skos:Concept ;
+    dcterms:identifier 79 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/74> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "beenzwart"@nl-BE ;
+    skos:scopeNote "Beenzwart is een vorm van houtskool die wordt geproduceerd door dierlijke botten te verhitten met gebruikmaking van een beperkte hoeveelheid lucht. Dit materiaal wordt gebruikt als pigment en voor het verwijderen van gekleurde onzuiverheden uit vloeistoffen. Het bevat slechts 12 procent elementaire koolstof; de rest van het materiaal bestaat voornamelijk uit calciumfosfaat en calciumcarbonaat. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/81> a skos:Concept ;
+    dcterms:identifier 81 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation """Art &amp; Architecture Thesaurus, <a href="http://www.getty.edu/research/tools/vocabularies/aat">http://www.getty.edu/research/tools/vocabularies/aat</a>
+"""^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/73> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "robijn"@nl-BE ;
+    skos:scopeNote "Robijn is een rode halfedelsteen en een variant van het mineraal korund. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/82> a skos:Concept ;
+    dcterms:identifier 82 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/73> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "turkoois"@nl-BE ;
+    skos:scopeNote "Turkoois is een ondoorzichtige blauwe, blauwgroene of grijsgroene edelsteen die bestaat uit het mineraal met dezelfde naam."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/87> a skos:Concept ;
+    dcterms:identifier 87 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/80> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "amethist"@nl-BE ;
+    skos:scopeNote "Amethist is een paarse of blauwviolette variëteit van het mineraal kwarts."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/88> a skos:Concept ;
+    dcterms:identifier 88 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/80> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "bergkristal"@nl-BE ;
+    skos:scopeNote "Bergkristal is een meestal kleurloze transparante variëteit van het mineraal kwarts."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/92> a skos:Concept ;
+    dcterms:identifier 92 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Paleontica, <a href=\"https://www.paleontica.org/information/article.php?id=383&amp;/Dolomiet\">https://www.paleontica.org</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "dolosteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "De meeste dolomiet is metamorf van aard en ontstaat door de diagenese van kalksteen. Dolomiet kan echter ook sedimentair van aard zijn als gevolg van het neerslaan van het mineraal dolomiet. "@nl-BE ;
+    skos:prefLabel "dolomiet"@nl-BE ;
+    skos:scopeNote "Dolomiet is een gesteente dat grotendeels uit calcium-magnesium-carbonaat bestaat. Het onstaat door de diagenese van kalksteen, waarbij magnesiumionen de plaats innemen van calcium in het kristalrooster. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/93> a skos:Concept ;
+    dcterms:identifier 93 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "lapus lazuli"@nl-BE ;
+    skos:scopeNote "Lapus lazuli is een ondoorzichtig, korrelig, kristallijn metamorf gesteente dat voornamelijk bestaat uit lazuriet en calciet. Het heeft een intense azuurblauwe kleur."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/94> a skos:Concept ;
+    dcterms:identifier 94 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "leisteen"@nl-BE ;
+    skos:scopeNote "Leisteen is een zeer fijnkorrelig en gefolieerd metamorf gesteente dat wordt gekenmerkt door een goede vlakke splijting ten gevolge van de heroriëntatie van de korrels."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/95> a skos:Concept ;
+    dcterms:identifier 95 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DE CEUKELAIRE M., DOPERE F., DREESEN R., DUSAR M. &amp; GROESSENS E. 2014: <em>Belgisch marmer</em>, Gent."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "marmer"@nl-BE ;
+    skos:scopeNote "Marmer is het metamorfe equivalent van kalksteen, waarbij de kalksteen onder hoge druk en temperatuur volledig is gekristalliseerd. Hierdoor bestaat marmer uit zeer puur calciumcarbonaat, en is het hard en compact."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/96> a skos:Concept ;
+    dcterms:identifier 96 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "schist"@nl-BE ;
+    skos:scopeNote "Schist is een goed splijtend sterk metamorf gesteente met op de splijtingsvlakken macroscopisch herkenbare mineralen, waaronder mica's. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/97> a skos:Concept ;
+    dcterms:identifier 97 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "zeepsteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "speksteen"@nl-BE ;
+    skos:scopeNote "Speksteen is een zeer zachte steen die voornamelijk uit gehydrateerd magnesiumsilicaat (talk) bestaat. Het voelt vettig aan, is snijdbaar en gemakkelijk te bewerken. Het komt in verschillende meestal bleke of lichte kleuren voor."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/98> a skos:Concept ;
+    dcterms:identifier 98 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "AMKREUZ L., BROUNEN F., DEEBEN J., MACHIELS R., VAN OORSOUW M.F. &amp; SMIT B. 2016: <em>Vuursteen verzameld</em>, Nederlandse archeologische rapporten 50, Amersfoort."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "phtanite d'Ottignies"@fr ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/90> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "ftaniet"@nl-BE ;
+    skos:scopeNote "Ftaniet is een fijnkorrelig, homogeen zwart verkiezeld sedimentair gesteente, afkomstig uit de regio rond Ottignies. De kleur is mat zwart. Het werd in de steentijd gebruikt om werktuigen te maken."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/10> a skos:Concept ;
+    dcterms:identifier 10 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "bladgoud"@nl-BE ;
+    skos:scopeNote "Bladgoud zijn bladen (platen) goud of goudlegering die tot een zeer geringe dikte (meestal circa 0,1 micrometer) zijn gehamerd of gewalst."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/104> a skos:Concept ;
+    dcterms:identifier 104 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/91> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/113> ;
+    skos:prefLabel "ganggesteente"@nl-BE ;
+    skos:scopeNote "Een ganggesteente is een stollingsgesteente dat is ontstaan door het stollen van magma bij zijn opwaartse tocht naar de oppervlakte."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/11> a skos:Concept ;
+    dcterms:identifier 11 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "ijzer"@nl-BE ;
+    skos:scopeNote "IJzer is een zuiver metaalelement met het symbool Fe en het atoomnummer 23. Het is glimmend zilverachtig van kleur, zacht en roest wanneer het aan vochtige lucht wordt blootgesteld. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/12> a skos:Concept ;
+    dcterms:identifier 12 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "koper"@nl-BE ;
+    skos:scopeNote "Koper is een zuiver metaalelement met het symbool Cu en het atoomnummer 29. Het is roodachtig van kleur en zeer smeedbaar en kneedbaar. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/133> a skos:Concept ;
+    dcterms:identifier 133 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/23> ;
+    skos:prefLabel "haar"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/149> a skos:Concept ;
+    dcterms:identifier 149 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/150> ;
+    skos:prefLabel "gras"@nl-BE ;
+    skos:scopeNote "Te gebruiken voor materiaal vervaardigd uit stengels en/of bladeren van gras (Poaceae)."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/155> a skos:Concept ;
+    dcterms:identifier 155 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, http://www.getty.edu/research/tools/vocabularies/aat" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "nikkel"@nl-BE ;
+    skos:scopeNote "Nikkel is een zuiver metaalelement met het symbool Ni en het atoomnummer 28. Het is zilverwit van kleur met een gele zweem, bestand tegen corrosie en tegen de meeste zuren behalve salpeter. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/156> a skos:Concept ;
+    dcterms:identifier 156 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, http://www.getty.edu/research/tools/vocabularies/aat" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "nikkellegering"@nl-BE ;
+    skos:scopeNote "Een nikkellegering is een vast mengsel van nikkel met andere metalen, met nikkel als voornaamste element. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/16> a skos:Concept ;
+    dcterms:identifier 16 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "lood"@nl-BE ;
+    skos:scopeNote "Lood is een zuiver metaalelement met het symbool Pb en het atoomnummer 82. Het is vaalgrijs van kleur, zacht en kneedbaar."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/18> a skos:Concept ;
+    dcterms:identifier 18 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "tin"@nl-BE ;
+    skos:scopeNote "Tin is een zuiver metaalelement met het symbool Sn en het atoomnummer 50. Het is zilverachtig wit van kleur, zacht en buigzaam. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/19> a skos:Concept ;
+    dcterms:identifier 19 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "zilver"@nl-BE ;
+    skos:scopeNote "Zilver is een zuiver metaalelement met het symbool Ag en het atoomnummer 47. Het is wit van kleur met een kenmerkende glas, smeedbaar, vervormbaar en wordt als edel beschouwd."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/29> a skos:Concept ;
+    dcterms:identifier 29 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/30> ;
+    skos:prefLabel "huid"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/38> a skos:Concept ;
+    dcterms:identifier 38 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/140> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/39> ;
+    skos:prefLabel "beton"@nl-BE ;
+    skos:scopeNote "Beton is een kunstmatig materiaal dat lijkt op steen en als bouwmateriaal wordt gebruikt. Het bestaat uit cement of kalk waaraan zand, grind of steenslag wordt toegevoegd."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/48> a skos:Concept ;
+    dcterms:identifier 48 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "aluminium"@nl-BE ;
+    skos:scopeNote "Aluminium is een zuiver metaalelement met het symbool Al en het atoomnummer 13. Het is dof zilverachtig van kleur en zeer licht."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/52> a skos:Concept ;
+    dcterms:identifier 52 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "zink"@nl-BE ;
+    skos:scopeNote "Zink is een zuiver metaalelement met het symbool Al en het atoomnummer 30. Het is blauwachtig wit van kleur. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/53> a skos:Concept ;
+    dcterms:identifier 53 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "zinklegering"@nl-BE ;
+    skos:scopeNote "Een zinklegering is een vast mengsel van zink met andere metalen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/55> a skos:Concept ;
+    dcterms:identifier 55 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "<div xml:lang=\"nl-BE\">Voor lood-tinlegering, zie <a href=\"https://id.erfgoed.net/thesauri/materialen/61\">https://id.erfgoed.net/thesauri/materialen/61</a></div>"^^rdf:HTML ;
+    skos:prefLabel "tinlegering"@nl-BE ;
+    skos:scopeNote "Een tinlegering is een vast mengsel van tin met andere metalen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/70> a skos:Concept ;
+    dcterms:identifier 70 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:prefLabel "aluminiumlegering"@nl-BE ;
+    skos:scopeNote "Een aluminiumlegering is een vast mengsel van aluminium met andere metalen, met aluminium als voornaamste element. Zonder verdere kwalificatie verwijst deze term naar aluminium-koperlegeringen met of zonder kleine hoeveelheden van andere legeringelementen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/9> a skos:Concept ;
+    dcterms:identifier 9 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300011021> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:note "Ook te gebruiken voor dit metaal wanneer het wordt bewerkt en gevormd om, meestal in combinatie met andere stoffen, diverse voorwerpen en materialen te maken. "@nl-BE ;
+    skos:prefLabel "goud"@nl-BE ;
+    skos:scopeNote "Goud is een zuiver metaalelement met het symbool Au en het atoomnummer 79. Het is geel van kleur, zacht, zwaar en chemisch inactief."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/103> a skos:Concept ;
+    dcterms:identifier 103 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "intrusief gesteente"@nl-BE,
+        "plutonisch gesteente"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/91> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/106>,
+        <https://id.erfgoed.net/thesauri/materialen/107> ;
+    skos:prefLabel "dieptegesteente"@nl-BE ;
+    skos:scopeNote "Een dieptegesteente is een stollingsgesteente dat wordt gevormd wanneer magma in de diepe ondergrond afkoelt en uithardt. Dieptegesteenten komen voor als enorme rotsmassa’s op meerdere kilometers diepte."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/105> a skos:Concept ;
+    dcterms:identifier 105 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "extrusief gesteente"@nl-BE,
+        "vulkanisch gesteente"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/91> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/114>,
+        <https://id.erfgoed.net/thesauri/materialen/115> ;
+    skos:prefLabel "uitvloeiingsgesteente"@nl-BE ;
+    skos:scopeNote "Een uitvloeiingsgesteente is een stollingsgesteente dat hoofdzakelijk voorkomt daar waar magma als lava uitbreekt (bij vulkanen), vlug aan de oppervlakte afkoelt en als fijnkorrelig of glazig gesteente uithardt. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/20> a skos:Concept ;
+    dcterms:identifier 20 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation """1) Van Dale groot woordenboek van de Nederlandse taal. 14de editie, Utrecht/Antwerpen, 2005
+2) Onroerend Erfgoed""" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/152>,
+        <https://id.erfgoed.net/thesauri/materialen/153> ;
+    skos:prefLabel "kunststof"@nl-BE ;
+    skos:scopeNote "Een kunststof is een langs chemische weg gemaakte stof die gebruikt wordt voor de vervaardiging van de meest verschillende zaken. In de scheepsbouw gaat het om een composiet van glasvezel (of andere meer moderne vezels) met polyester of epoxy, al dan niet in combinatie met een core-materiaal."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/21> a skos:Concept ;
+    dcterms:identifier 21 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/129>,
+        <https://id.erfgoed.net/thesauri/materialen/32> ;
+    skos:prefLabel "biologisch materiaal"@nl-BE ;
+    skos:scopeNote "Biologisch materiaal is materiaal afkomstig van levende organismen, zowel dierlijk, menselijk als plantaardig."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/24> a skos:Concept ;
+    dcterms:identifier 24 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "been"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/129> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/25>,
+        <https://id.erfgoed.net/thesauri/materialen/26> ;
+    skos:note "Been is bot dat is bewerkt en gebruikt om voorwerpen van te maken."@nl-BE ;
+    skos:prefLabel "bot"@nl-BE ;
+    skos:scopeNote "Bot is een hard weefsel dat voornamelijk bestaat uit collageen en calciumfosfaat. Het vormt het inwendige skelet van gewervelde dieren. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/43> a skos:Concept ;
+    dcterms:identifier 43 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/89> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/44>,
+        <https://id.erfgoed.net/thesauri/materialen/45> ;
+    skos:prefLabel "kwartsiet"@nl-BE ;
+    skos:scopeNote "Kwartsiet is een metamorf gesteente dat voornamelijk bestaat uit korrelige kwarts die met silica is gecementeerd tot een homogene massa met een zeer hoge trek- en pletvastheid."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/54> a skos:Concept ;
+    dcterms:identifier 54 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/59> ;
+    skos:prefLabel "zilverlegering"@nl-BE ;
+    skos:scopeNote "Een zilverlegering is een vast mengsel van zilver met andere metalen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/56> a skos:Concept ;
+    dcterms:identifier 56 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/61> ;
+    skos:prefLabel "loodlegering"@nl-BE ;
+    skos:scopeNote "Een loodlegering is een vast mengsel van lood met andere metalen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/57> a skos:Concept ;
+    dcterms:identifier 57 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/17> ;
+    skos:prefLabel "ijzerlegering"@nl-BE ;
+    skos:scopeNote "Een ijzerlegering is een vast mengsel van ijzer met andere metalen, met ijzer als voornaamste element."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/58> a skos:Concept ;
+    dcterms:identifier 58 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/60> ;
+    skos:prefLabel "goudlegering"@nl-BE ;
+    skos:scopeNote "Een goudlegering is een vast mengsel van goud met andere metalen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/80> a skos:Concept ;
+    dcterms:identifier 80 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Wikipedia, <a href=\"https://nl.wikipedia.org\">https://nl.wikipedia.org</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/73> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/87>,
+        <https://id.erfgoed.net/thesauri/materialen/88> ;
+    skos:prefLabel "kwarts"@nl-BE ;
+    skos:scopeNote "Kwarts is een van de meest voorkomende mineralen in de aardkorst. Het is de meest algemeen voorkomende vorm van siliciumoxide (SiO2)."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/1> a skos:Concept ;
+    dcterms:identifier 1 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl/</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "ceramiek"@nl-BE,
+        "keramiek"@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/2>,
+        <https://id.erfgoed.net/thesauri/materialen/5>,
+        <https://id.erfgoed.net/thesauri/materialen/6> ;
+    skos:prefLabel "aardewerk"@nl-BE ;
+    skos:scopeNote "Aardewerk of keramiek is gebakken klei. Aardewerk wordt gebruikt voor het vervaardigen van vaatwerk, bouwmaterialen, beeldjes, enz…"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/102> a skos:Concept ;
+    dcterms:identifier 102 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "areniet"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/90> ;
+    skos:definition "Zandsteen is een sedimentair gesteente dat voornamelijk bestaat uit zandkorrels die zijn samengevoegd met een natuurlijk bindend materiaal. "@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/116>,
+        <https://id.erfgoed.net/thesauri/materialen/117>,
+        <https://id.erfgoed.net/thesauri/materialen/118> ;
+    skos:prefLabel "zandsteen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/127> a skos:Concept ;
+    dcterms:identifier 127 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/141>,
+        <https://id.erfgoed.net/thesauri/materialen/151>,
+        <https://id.erfgoed.net/thesauri/materialen/37> ;
+    skos:prefLabel "vezelproducten"@nl-BE ;
+    skos:scopeNote "Vezelproducten zijn materialen die tot stand zijn gekomen door het bewerken van natuurlijke of synthetische vezels zodat deze bijeen blijven."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/13> a skos:Concept ;
+    dcterms:identifier 13 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/8> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/14>,
+        <https://id.erfgoed.net/thesauri/materialen/15> ;
+    skos:prefLabel "koperlegering"@nl-BE ;
+    skos:scopeNote "Een koperlegering is een vast mengsel van koper met andere metalen, met koper als voornaamste element."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/40> a skos:Concept ;
+    dcterms:identifier 40 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "gesteente"@nl-BE,
+        "natuursteen"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/86> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/89>,
+        <https://id.erfgoed.net/thesauri/materialen/90>,
+        <https://id.erfgoed.net/thesauri/materialen/91> ;
+    skos:note "Ook te gebruiken voor natuursteen. Natuursteen is een term die wordt gebruik voor gesteenten die in de natuur worden aangetroffen en die, na eventuele bewerking, geschikt zijn als bouwmateriaal. "@nl-BE ;
+    skos:prefLabel "steen"@nl-BE ;
+    skos:scopeNote "Steen is een natuurlijk gevormd aggregaat van één of meer mineralen. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/73> a skos:Concept ;
+    dcterms:identifier 73 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/86> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/80>,
+        <https://id.erfgoed.net/thesauri/materialen/81>,
+        <https://id.erfgoed.net/thesauri/materialen/82> ;
+    skos:prefLabel "mineralen"@nl-BE ;
+    skos:scopeNote "Een mineraal is een in de natuur voorkomend anorganisch element of verbinding met een ordelijke interne structuur en een karakteristieke chemische samenstelling, kristalstructuur en fysische eigenschappen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/91> a skos:Concept ;
+    dcterms:identifier 91 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "magmatisch gesteente"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/40> ;
+    skos:definition "Een stollingsgesteente is een gesteente dat ontstaat door het stollen van vloeibaar magma of lava tot hard gesteente."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/103>,
+        <https://id.erfgoed.net/thesauri/materialen/104>,
+        <https://id.erfgoed.net/thesauri/materialen/105> ;
+    skos:prefLabel "stollingsgesteente"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/140> a skos:Concept ;
+    dcterms:identifier 140 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/142>,
+        <https://id.erfgoed.net/thesauri/materialen/38>,
+        <https://id.erfgoed.net/thesauri/materialen/49>,
+        <https://id.erfgoed.net/thesauri/materialen/50> ;
+    skos:prefLabel "samengestelde bouwmaterialen"@nl-BE ;
+    skos:scopeNote "Een samengesteld bouwmateriaal een bouwmateriaal dat is samengesteld uit meer dan een materiaal, elk met eigen fysische of chemische eigenschappen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/86> a skos:Concept ;
+    dcterms:identifier 86 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "gesteente en mineralen"@nl-BE,
+        "natuursteen en mineralen"@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/40>,
+        <https://id.erfgoed.net/thesauri/materialen/41>,
+        <https://id.erfgoed.net/thesauri/materialen/42>,
+        <https://id.erfgoed.net/thesauri/materialen/73> ;
+    skos:prefLabel "steen en mineralen"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/100> a skos:Concept ;
+    dcterms:identifier 100 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Thesaurus Gallo-Romeins Museum Tongeren, <a href=\"https://www.galloromeinsmuseum.be\">https://www.galloromeinsmuseum.be</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/90> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/108>,
+        <https://id.erfgoed.net/thesauri/materialen/109>,
+        <https://id.erfgoed.net/thesauri/materialen/110>,
+        <https://id.erfgoed.net/thesauri/materialen/111>,
+        <https://id.erfgoed.net/thesauri/materialen/112> ;
+    skos:prefLabel "kalksteen"@nl-BE ;
+    skos:scopeNote "Kalksteen is een sedimentair gesteente dat voornamelijk bestaat uit calciet (CaCO3). Het ontstaat door de opeenhoping van kalkskeletten van allerhande organismen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/74> a skos:Concept ;
+    dcterms:identifier 74 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/75>,
+        <https://id.erfgoed.net/thesauri/materialen/76>,
+        <https://id.erfgoed.net/thesauri/materialen/77>,
+        <https://id.erfgoed.net/thesauri/materialen/78>,
+        <https://id.erfgoed.net/thesauri/materialen/79> ;
+    skos:prefLabel "pigment"@nl-BE ;
+    skos:scopeNote "Pigmenten zijn relatief onoplosbare organische, anorganische, natuurlijke of kunstmatige substanties die kleur afgeven aan een andere substantie of een ander mengsel en die altijd dezelfde eigen kleur hebben wanneer ze onder wit licht worden gezien. Het is het bestanddeel van verf of inkt dat voor de kleur zorgt. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/90> a skos:Concept ;
+    dcterms:identifier 90 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "afzettingsgesteente"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/40> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/100>,
+        <https://id.erfgoed.net/thesauri/materialen/101>,
+        <https://id.erfgoed.net/thesauri/materialen/102>,
+        <https://id.erfgoed.net/thesauri/materialen/46>,
+        <https://id.erfgoed.net/thesauri/materialen/98> ;
+    skos:prefLabel "sedimentair gesteente"@nl-BE ;
+    skos:scopeNote "Een sedimentair gesteente is een gesteente dat ontstaat door de aaneenkitting van sedimenten of korrels."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/32> a skos:Concept ;
+    dcterms:identifier 32 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/21> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/136>,
+        <https://id.erfgoed.net/thesauri/materialen/137>,
+        <https://id.erfgoed.net/thesauri/materialen/138>,
+        <https://id.erfgoed.net/thesauri/materialen/139>,
+        <https://id.erfgoed.net/thesauri/materialen/33>,
+        <https://id.erfgoed.net/thesauri/materialen/35>,
+        <https://id.erfgoed.net/thesauri/materialen/36> ;
+    skos:prefLabel "plantaardig materiaal"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/37> a skos:Concept ;
+    dcterms:identifier 37 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Nederlandse Art &amp; Architecture Thesaurus, <a href=\"http://browser.aat-ned.nl/\">http://browser.aat-ned.nl</a>"^^rdf:HTML ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/127> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/143>,
+        <https://id.erfgoed.net/thesauri/materialen/144>,
+        <https://id.erfgoed.net/thesauri/materialen/145>,
+        <https://id.erfgoed.net/thesauri/materialen/146>,
+        <https://id.erfgoed.net/thesauri/materialen/147>,
+        <https://id.erfgoed.net/thesauri/materialen/148>,
+        <https://id.erfgoed.net/thesauri/materialen/149> ;
+    skos:prefLabel "textiel"@nl-BE ;
+    skos:scopeNote "Textiel is een materiaal dat tot stand is gekomen door middel van weven, vervilten, knopen, twijnen of andersoortige bewerking van natuurlijke of synthetische vezels zodanig dat zij bijeenblijven."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/89> a skos:Concept ;
+    dcterms:identifier 89 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "DUSAR M., DREESEN R. &amp; DE NAEYER A. 2009: <em>Natuursteen in Vlaanderen, versteend verleden</em>, Mechelen."^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/40> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/43>,
+        <https://id.erfgoed.net/thesauri/materialen/92>,
+        <https://id.erfgoed.net/thesauri/materialen/93>,
+        <https://id.erfgoed.net/thesauri/materialen/94>,
+        <https://id.erfgoed.net/thesauri/materialen/95>,
+        <https://id.erfgoed.net/thesauri/materialen/96>,
+        <https://id.erfgoed.net/thesauri/materialen/97> ;
+    skos:prefLabel "metamorf gesteente"@nl-BE ;
+    skos:scopeNote "Een metamorf gesteente is een gesteente dat wordt gevormd door de transformatie van sedimentaire en stollingsgesteenten onder invloed van temperatuur, druk of hydrothermale vloeistoffen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/46> a skos:Concept ;
+    dcterms:identifier 46 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ],
+        [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Agentschap Onroerend Erfgoed" ] ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:altLabel "silex"@nl-BE ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/90> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/119>,
+        <https://id.erfgoed.net/thesauri/materialen/120>,
+        <https://id.erfgoed.net/thesauri/materialen/121>,
+        <https://id.erfgoed.net/thesauri/materialen/122>,
+        <https://id.erfgoed.net/thesauri/materialen/123>,
+        <https://id.erfgoed.net/thesauri/materialen/124>,
+        <https://id.erfgoed.net/thesauri/materialen/125>,
+        <https://id.erfgoed.net/thesauri/materialen/126> ;
+    skos:prefLabel "vuursteen"@nl-BE ;
+    skos:scopeNote "Vuursteen is een fijnkorrelig en microkristallijn kwartsaggregaat. De kwarts (SiO2) is afkomstig van het oplossen van silica-houdende micro-organismen. Vuursteen is geassocieerd met krijtafzettingen en wordt gekenmerkt door een schelpvormige breuk. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/129> a skos:Concept ;
+    dcterms:identifier 129 ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:broader <https://id.erfgoed.net/thesauri/materialen/21> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/130>,
+        <https://id.erfgoed.net/thesauri/materialen/131>,
+        <https://id.erfgoed.net/thesauri/materialen/132>,
+        <https://id.erfgoed.net/thesauri/materialen/133>,
+        <https://id.erfgoed.net/thesauri/materialen/134>,
+        <https://id.erfgoed.net/thesauri/materialen/135>,
+        <https://id.erfgoed.net/thesauri/materialen/24>,
+        <https://id.erfgoed.net/thesauri/materialen/27>,
+        <https://id.erfgoed.net/thesauri/materialen/28>,
+        <https://id.erfgoed.net/thesauri/materialen/29>,
+        <https://id.erfgoed.net/thesauri/materialen/31> ;
+    skos:prefLabel "dierlijk en menselijk materiaal"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen/8> a skos:Concept ;
+    dcterms:identifier 8 ;
+    dcterms:source [ a dcterms:BibliographicResource ;
+            dcterms:bibliographicCitation "Art &amp; Architecture Thesaurus, <a href=\"http://www.getty.edu/research/tools/vocabularies/aat\">http://www.getty.edu/research/tools/vocabularies/aat</a>"^^rdf:HTML ] ;
+    skos-thes:subordinateArray <https://id.erfgoed.net/thesauri/materialen/154>,
+        <https://id.erfgoed.net/thesauri/materialen/62>,
+        <https://id.erfgoed.net/thesauri/materialen/63>,
+        <https://id.erfgoed.net/thesauri/materialen/64>,
+        <https://id.erfgoed.net/thesauri/materialen/65>,
+        <https://id.erfgoed.net/thesauri/materialen/66>,
+        <https://id.erfgoed.net/thesauri/materialen/67>,
+        <https://id.erfgoed.net/thesauri/materialen/68>,
+        <https://id.erfgoed.net/thesauri/materialen/69> ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/materialen> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/materialen/10>,
+        <https://id.erfgoed.net/thesauri/materialen/11>,
+        <https://id.erfgoed.net/thesauri/materialen/12>,
+        <https://id.erfgoed.net/thesauri/materialen/13>,
+        <https://id.erfgoed.net/thesauri/materialen/155>,
+        <https://id.erfgoed.net/thesauri/materialen/156>,
+        <https://id.erfgoed.net/thesauri/materialen/16>,
+        <https://id.erfgoed.net/thesauri/materialen/18>,
+        <https://id.erfgoed.net/thesauri/materialen/19>,
+        <https://id.erfgoed.net/thesauri/materialen/48>,
+        <https://id.erfgoed.net/thesauri/materialen/52>,
+        <https://id.erfgoed.net/thesauri/materialen/53>,
+        <https://id.erfgoed.net/thesauri/materialen/54>,
+        <https://id.erfgoed.net/thesauri/materialen/55>,
+        <https://id.erfgoed.net/thesauri/materialen/56>,
+        <https://id.erfgoed.net/thesauri/materialen/57>,
+        <https://id.erfgoed.net/thesauri/materialen/58>,
+        <https://id.erfgoed.net/thesauri/materialen/70>,
+        <https://id.erfgoed.net/thesauri/materialen/9> ;
+    skos:prefLabel "metaal"@nl-BE ;
+    skos:scopeNote "Metalen zijn een groep stoffen die meestal een kenmerkende glans vertonen. Het zijn goede geleiders van elektriciteit en warmte, ze zijn ondoorschijnend, kunnen smelten en zijn meestal pletbaar of kneedbaar."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/materialen> a skos:ConceptScheme ;
+    dcterms:identifier "MATERIALEN" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/materialen> ;
+    skos:hasTopConcept <https://id.erfgoed.net/thesauri/materialen/1>,
+        <https://id.erfgoed.net/thesauri/materialen/127>,
+        <https://id.erfgoed.net/thesauri/materialen/140>,
+        <https://id.erfgoed.net/thesauri/materialen/20>,
+        <https://id.erfgoed.net/thesauri/materialen/21>,
+        <https://id.erfgoed.net/thesauri/materialen/7>,
+        <https://id.erfgoed.net/thesauri/materialen/74>,
+        <https://id.erfgoed.net/thesauri/materialen/8>,
+        <https://id.erfgoed.net/thesauri/materialen/86> ;
+    skos:prefLabel "materials"@en,
+        "materialen"@nl .
